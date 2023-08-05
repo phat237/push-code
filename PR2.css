@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(225, 225, 225);
+}
+.bigcolum{
+    display: flex;
+}
+.colum1 .block{
+    box-sizing: border-box;
+    height: 184px;
+    width: 660px;
+    border-radius: 16px;
+    background-image: linear-gradient(to right,#25335A, #141824);
+    margin-bottom: 64px;
+    position: relative;
+    margin: 32px 24px 68px 48px;
+}
+.colum2 .block{
+    box-sizing: border-box;
+    height: 184px;
+    width: 660px;
+    border-radius: 16px;
+    background: white;
+    margin-bottom: 64px;
+    position: relative;
+    margin: 32px 48px 68px 0px;
+}
+.colum1 .block .content{
+    box-sizing: border-box;
+    height: 33px;
+    width: 270px;
+    top: 72px;
+    left: 40px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Open Sans;
+    color: white;
+    translate: 40px 72px;
+    line-height: 32.68px;
+}
+.colum2 .block .content{
+    box-sizing: border-box;
+    height: 33px;
+    width: 270px;
+    top: 72px;
+    left: 40px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Open Sans;
+    color: #B65741;
+    translate: 40px 72px;
+    line-height: 32.68px;
+}
+.colum1 .block .content2{
+    box-sizing: border-box;
+    height: 44px;
+    width: 263px;
+    translate: 40px 35px;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Open Sans;
+    color: white;
+    line-height: 43.58px;
+}
+.colum2 .block .content2{
+    box-sizing: border-box;
+    height: 44px;
+    width: 263px;
+    translate: 40px 35px;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Open Sans;
+    color: #B65741;
+    line-height: 43.58px;
+}
+.colum1 .block #pic2{
+    height: 250px;
+    width: 255.54px;
+    position: absolute;
+    top: -20px;
+    left: 375px;
+}
+.colum1 .block #pic1{
+    height: 200px;
+    width: 232px;
+    position: absolute;
+    top: 16.61px;
+    left: 377.02px;
+}
+.colum2 .block #pic1{
+    height: 216px;
+    width: 384px;
+    position: absolute;
+    top: 14px;
+    left: 305px;
+}
+.block #pic2{
+    height: 250px;
+    width: 255.54px;
+    position: absolute;
+    top: -3px;
+    left: 354px;
+}
+.block #pic3{
+    height: 215px;
+    width: 220px;
+    position: absolute;
+    top: -3px;
+    left: 375px;
+}
+.block #pic4{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: -12px;
+    left: 372px;
+}
+.block #pic5{
+    height: 280px;
+    width: 280px;
+    position: absolute;
+    top: -24px;
+    left: 338px;
+}
